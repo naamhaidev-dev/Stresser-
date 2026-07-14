@@ -431,7 +431,7 @@ class DDoSBot:
                               .replace("{method}", "UDP")
 
         headers = Config.STRESSER_HEADERS
-        method = Config.STRESSER_API_METHOD.upper()
+        method = Config.STRESSER_DEFAULT_METHOD
 
         try:
             if not self.session:
