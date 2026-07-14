@@ -1,6 +1,6 @@
 certifi==2025.4.26
 pytz==2025.1
 aiohttp==3.10.5
-pyTelegramBotAPI==4.24.2
+pyTelegramBotAPI
 pymongo==4.10.1
 python-3.11.7
