@@ -90,6 +90,7 @@ class Config:
     # ========== GENERIC STRESSER API PROVIDER ==========
     STRESSER_API_URL: str = os.environ.get("STRESSER_API_URL", "")
     STRESSER_API_KEY: str = os.environ.get("STRESSER_API_KEY", "")
+    STRESSER_DEFAULT_METHOD: str = os.environ.get("STRESSER_DEFAULT_METHOD", "UDP")
     # Supported methods: GET, POST
     STRESSER_API_METHOD: str = os.environ.get("STRESSER_API_METHOD", "POST")
     # Custom headers as JSON (optional)
