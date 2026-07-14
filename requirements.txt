@@ -3,4 +3,3 @@ pytz==2025.1
 aiohttp==3.10.5
 pyTelegramBotAPI
 pymongo==4.10.1
-python-3.11.7
